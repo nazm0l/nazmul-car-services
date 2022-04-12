@@ -1,0 +1,74 @@
+[
+    {
+      "_id": 1,
+      "picture": "https://i2.wp.com/meatmanbd.com/wp-content/uploads/2020/10/Beef-Boneless-Lean.png?resize=300%2C300&ssl=1",
+      "price": 750,
+      "name": "Beef Boneless"
+    },
+    {
+      "_id": 2,
+      "picture": "https://i0.wp.com/meatmanbd.com/wp-content/uploads/2020/10/Beef-Burger-Patty.png?resize=300%2C300&ssl=1",
+      "price": 300,
+      "name": "Beef Burger Patty"
+    },
+    {
+      "_id": 3,
+      "picture": "https://i0.wp.com/meatmanbd.com/wp-content/uploads/2020/10/Beef-Keema.png?fit=840%2C577&ssl=1",
+      "price": 488,
+      "name": "Beef Keema"
+    },
+    {
+      "_id": 4,
+      "picture": "https://i1.wp.com/meatmanbd.com/wp-content/uploads/2020/10/Mutton-Back-Leg.png?fit=500%2C333&ssl=1",
+      "price": 900,
+      "name": "Mutton Back Leg"
+    },
+    {
+      "_id": 5,
+      "picture": "https://i0.wp.com/meatmanbd.com/wp-content/uploads/2020/10/Mutton-Bone-in-1.png?fit=558%2C448&ssl=1",
+      "price": 690,
+      "name": "Mutton Bone-in"
+    },
+    {
+      "_id": 6,
+      "picture": "https://i2.wp.com/meatmanbd.com/wp-content/uploads/2020/10/Mutton-Kacchi-Cut-1.png?fit=500%2C500&ssl=1",
+      "price": 950,
+      "name": "Mutton Kacchi Cut"
+    },
+    {
+      "_id": 7,
+      "picture": "https://i2.wp.com/meatmanbd.com/wp-content/uploads/2021/01/Chicken-Breast-Boneless.png?fit=765%2C463&ssl=1",
+      "price": 475,
+      "name": "Chicken Breast Boneless"
+    },
+    {
+      "_id": 8,
+      "picture": "https://i2.wp.com/meatmanbd.com/wp-content/uploads/2021/01/Chicken-Drumstick-Skin-On.png?fit=423%2C432&ssl=1",
+      "price": 335,
+      "name": "Chicken Skin On"
+    },
+    {
+      "_id": 9,
+      "picture": "https://i2.wp.com/meatmanbd.com/wp-content/uploads/2021/01/Chicken-Burger-Patty-1.png?w=339&ssl=1",
+      "price": 225,
+      "name": "Chicken Burger Patty"
+    },
+    {
+      "_id": 10,
+      "picture": "https://i2.wp.com/meatmanbd.com/wp-content/uploads/2021/06/Sonali-Whole-Chicken-Skin-Off.png?w=350&ssl=1",
+      "price": 410,
+      "name": "Sonali Chicken"
+    },
+    {
+      "_id": 11,
+      "picture": "https://i1.wp.com/meatmanbd.com/wp-content/uploads/2020/10/Beef-T-bone-Steak-1.png?fit=560%2C445&ssl=1",
+      "price": 640,
+      "name": "Beef T-bone Steak"
+    },
+    {
+      "_id": 12,
+      "picture": "https://i0.wp.com/meatmanbd.com/wp-content/uploads/2020/10/Beef-Sirloin-Steak-1.png?fit=666%2C375&ssl=1",
+      "price": 615,
+      "name": "Beef Sirloin Steak"
+    }
+  ]
