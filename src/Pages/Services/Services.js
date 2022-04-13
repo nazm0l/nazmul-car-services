@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Service from './Service/Service';
+import './Services.css'
 
 const Services = () => {
 
@@ -12,11 +13,13 @@ const Services = () => {
     },[])
 
     return (
-        <div>
-            <h2>Services: {products.length}</h2>
+        <div className='container'>
+            <h2 className='product-title'>Our Cars</h2>
+            <div className='product-container'>
             {
                 products.map(product => <Service key={product._id} product={product}></Service>)
             }
+            </div>
         </div>
     );
 };

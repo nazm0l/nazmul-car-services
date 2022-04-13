@@ -1,0 +1,20 @@
+.brand-title{
+    text-align: center;
+    font-size: 34px;
+}
+
+.brands-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: rgba(211, 211, 211, 0.462);
+}
+
+/* Mobile responsive */
+
+@media only screen and (max-width:576px) {
+    .brands-container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+        padding: 10px;
+    }
+}

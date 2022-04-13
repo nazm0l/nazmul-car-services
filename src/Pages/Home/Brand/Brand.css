@@ -1,0 +1,11 @@
+.brand-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-img{
+    width: 100px;
+}
