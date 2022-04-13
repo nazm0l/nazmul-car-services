@@ -18,7 +18,7 @@ const Brands = () => {
 
   return (
     <div>
-      <h2 className="brand-title">Our Partner</h2>
+      <h2 className="brand-title my-5">Our Partner</h2>
       <div className="brands-container">
         {brands.map((brand) => (
           <Brand key={brand.id} brand={brand}></Brand>
