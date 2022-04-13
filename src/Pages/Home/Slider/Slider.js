@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Carousel } from "react-bootstrap";
-import bmw from "../../../Images/brand/bmw.png";
-import bugatti from "../../../Images/brand/bugatti.png";
-import ferrari from "../../../Images/brand/ferrari.png";
+import bmw from "../../../Images/slider/slider1.png";
+import bugatti from "../../../Images/slider/slider2.png";
+import ferrari from "../../../Images/slider/slider3.png";
 
 const Slider = () => {
  

@@ -18,8 +18,8 @@ const Brands = () => {
 
   return (
     <div>
-      <h2 className="brand-title my-5">Our Partner</h2>
-      <div className="brands-container">
+      <h2 className="brand-title my-5 py-2 bg-dark text-white">Our Partner</h2>
+      <div className="brands-container container">
         {brands.map((brand) => (
           <Brand key={brand.id} brand={brand}></Brand>
         ))}
