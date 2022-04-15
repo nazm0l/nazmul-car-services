@@ -2,6 +2,7 @@ import React from 'react';
 import auth from "../../../firebase.init";
 import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth'
 import { useNavigate } from 'react-router-dom';
+import Loading from '../../Shared/Loading/Loading';
 
 const SocialLogin = () => {
 
@@ -13,6 +14,10 @@ const SocialLogin = () => {
     if (error || errorGit) {
         errorElement = <p className='text-danger'>Error: {error?.message} {errorGit.message}</p>
       }
+
+    if(loading || loadingGit){
+        return <Loading></Loading>
+    }
 
       if(user || userGit){
           navigate('/');

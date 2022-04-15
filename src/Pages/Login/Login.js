@@ -6,6 +6,7 @@ import {
 } from "react-firebase-hooks/auth";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import auth from "../../firebase.init";
+import Loading from "../Shared/Loading/Loading";
 import SocialLogin from "./SocialLogin/SocialLogin";
 
 const Login = () => {
@@ -28,6 +29,10 @@ const Login = () => {
 
   if (user) {
     navigate(from, { replace: true });
+  }
+
+  if(loading || sending){
+    return <Loading></Loading>
   }
 
   let errorElement;
@@ -80,13 +85,12 @@ const Login = () => {
 
       <p className="mt-3">
         Forgot Password?{" "}
-        <Link
-          to="/register"
+        <button
           onClick={resetPassword}
-          className="text-primary text-decoration-none"
+          className="text-primary text-decoration-none btn btn-link"
         >
           Reset password
-        </Link>
+        </button>
       </p>
 
       <p className="mt-3">
