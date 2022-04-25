@@ -1,16 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import useCars from '../../hooks/useCars';
 import Service from './Service/Service';
 import './Services.css'
 
 const Services = () => {
 
-    const [products, setProducts] = useState([]);
-
-    useEffect(()=>{
-        fetch('products.json')
-        .then(res => res.json())
-        .then(data => setProducts(data));
-    },[])
+  const [products] = useCars();
 
     return (
         <div>

@@ -10,16 +10,28 @@ import NotFound from './Pages/Shared/NotFound/NotFound';
 import Register from './Pages/Login/Register/Register';
 import Cars from './Pages/Cars/Cars';
 import RequireAuth from './Pages/Login/RequreAuth/RequreAuth';
+import AddCar from './Pages/AddCar/AddCar';
+import ManageCars from './Pages/ManageCars/ManageCars';
 
 function App() {
   return (
     <div>
       <Header></Header>
       <Routes>
-        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/'element={<Home></Home>}></Route>
         <Route path='/services/:id' element={
           <RequireAuth>
             <ServiceDetail></ServiceDetail>
+          </RequireAuth>
+        }></Route>
+        <Route path='/addcars' element={
+          <RequireAuth>
+            <AddCar></AddCar>
+          </RequireAuth>
+        }></Route>
+        <Route path='/managecars' element={
+          <RequireAuth>
+            <ManageCars></ManageCars>
           </RequireAuth>
         }></Route>
         <Route path='/about' element={<About></About>}></Route>
