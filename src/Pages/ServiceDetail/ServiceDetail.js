@@ -8,7 +8,7 @@ const ServiceDetail = () => {
     const [car, setCar] = useState({});
 
     useEffect(() =>{
-        const url = `http://localhost:5000/cars/${id}`
+        const url = `https://vast-temple-70265.herokuapp.com/cars/${id}`
         fetch(url)
         .then(res => res.json())
         .then(data => setCar(data));

@@ -9,7 +9,7 @@ const ManageCars = () => {
         const proceed = window.confirm('Are you sure?')
 
         if(proceed){
-            const url = `http://localhost:5000/cars/${id}`
+            const url = `https://vast-temple-70265.herokuapp.com/cars/${id}`
             
             fetch(url, {
                 method: 'DELETE'
