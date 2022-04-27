@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
-import { toast } from "react-toastify";
+import { toast, ToastContainer } from "react-toastify";
 
 const AddCar = () => {
   const { register, handleSubmit } = useForm();
@@ -43,6 +43,7 @@ const AddCar = () => {
         />
         <input className="btn btn-dark" type="submit" value="Add Car" />
       </form>
+      <ToastContainer/>
     </div>
   );
 };
