@@ -18,7 +18,7 @@ const AddCar = () => {
     })
       .then((res) => res.json())
       .then((result) => console.log(result));
-      navigate('/cars')
+      toast("New Car Added")
   };
 
   return (
@@ -43,6 +43,7 @@ const AddCar = () => {
         />
         <input className="btn btn-dark" type="submit" value="Add Car" />
       </form>
+      <ToastContainer/>
     </div>
   );
 };

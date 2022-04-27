@@ -12,6 +12,7 @@ import Cars from './Pages/Cars/Cars';
 import RequireAuth from './Pages/Login/RequreAuth/RequreAuth';
 import AddCar from './Pages/AddCar/AddCar';
 import ManageCars from './Pages/ManageCars/ManageCars';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
