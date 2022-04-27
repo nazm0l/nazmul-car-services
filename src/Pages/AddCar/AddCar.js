@@ -1,13 +1,14 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 
 const AddCar = () => {
   const { register, handleSubmit } = useForm();
   const navigate = useNavigate();
 
   const onSubmit = (data) => {
-    const url = `http://localhost:5000/cars`;
+    const url = `https://vast-temple-70265.herokuapp.com/cars`;
     fetch(url, {
       method: "POST",
       headers: {
@@ -17,6 +18,7 @@ const AddCar = () => {
     })
       .then((res) => res.json())
       .then((result) => console.log(result));
+      toast("Car added")
       navigate('/')
   };
 

@@ -12,6 +12,7 @@ import Cars from './Pages/Cars/Cars';
 import RequireAuth from './Pages/Login/RequreAuth/RequreAuth';
 import AddCar from './Pages/AddCar/AddCar';
 import ManageCars from './Pages/ManageCars/ManageCars';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
+      <ToastContainer/>
     </div>
   );
 }
