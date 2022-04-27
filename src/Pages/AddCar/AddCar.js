@@ -19,7 +19,6 @@ const AddCar = () => {
       .then((res) => res.json())
       .then((result) => console.log(result));
       toast("Car added")
-      navigate('/')
   };
 
   return (
