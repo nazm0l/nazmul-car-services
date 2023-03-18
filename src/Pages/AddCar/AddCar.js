@@ -8,7 +8,7 @@ const AddCar = () => {
   const navigate = useNavigate();
 
   const onSubmit = (data) => {
-    const url = `https://vast-temple-70265.herokuapp.com/cars`;
+    const url = `https://nazmul-car-services-server-jrmsxoqw4-nazm0l.vercel.app/cars`;
     fetch(url, {
       method: "POST",
       headers: {
@@ -18,7 +18,7 @@ const AddCar = () => {
     })
       .then((res) => res.json())
       .then((result) => console.log(result));
-      toast("New Car Added")
+    toast("New Car Added");
   };
 
   return (
@@ -43,7 +43,7 @@ const AddCar = () => {
         />
         <input className="btn btn-dark" type="submit" value="Add Car" />
       </form>
-      <ToastContainer/>
+      <ToastContainer />
     </div>
   );
 };
